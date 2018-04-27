@@ -1,0 +1,12 @@
+{
+  "name": "wox-weapp-logs",
+  "version": "0.0.4",
+  "description": "logs for weapp",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "log"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "wox-weapp-mixin",
+  "version": "0.0.4",
+  "description": "weapp mixin for wox",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./*/*-spec.js",
+    "test:watch": "mocha -w ./*/*-spec.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "pre-commit": "^1.2.2"
+  },
+  "license": "MIT"
+}
